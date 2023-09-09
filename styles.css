@@ -1,14 +1,31 @@
+* {
+    /*border: 1px solid red;*/
+}
 #body {
     background-color: rgb(225, 243, 238);
+    margin: 0px;
 }
 .title {
     text-align: center;
     font-family: 'Roboto Condensed';
 }
+#title-box {
+    height: 120px;
+    background-color: rgb(39, 56, 48);
+    margin: 0px;
+}
+#maintitle {
+    font-size: xx-large;
+    text-align: center;
+    margin: -80px 30px 80px 30px;
+    color: azure;
+}
 #logo {
+    width: auto;
+    height: 120px;
     display: block;
-    margin-left: auto;
-    margin-right:auto;
+    margin-left: 490px;
+    margin-right: auto;
     margin-bottom: -30px;
 }
 .container {
@@ -27,4 +44,59 @@
     display: block;
     margin-left: auto;
     margin-right:auto;
+}
+a:link {
+    font-family: 'Roboto Condensed';
+    font-size: large;
+    color: azure;
+}
+.frontimg {
+    height:180px;
+    width:280px;
+}
+.first {
+    margin-left: 90px;
+    margin-top: -5px;
+    width: 284px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(37, 54, 47);
+    padding-top: 10px;
+}
+.firstimg {
+    margin-left: 90px;
+    margin-top: 80px;
+    border: 2px solid rgb(39, 56, 48);
+}
+a:visited {
+    color: azure;
+}
+a:hover {
+    background-color: black;
+}
+.secondimg {
+    margin-left: 160px;
+    border: 2px solid rgb(39, 56, 48);
+}
+.second {
+    text-align: center;
+    margin-top: -108px;
+    margin-left: 538px;
+    width: 284px;
+    height: 80px;
+    background-color: rgb(37, 54, 47);
+    padding-top: 10px;
+}
+.thirdimg {
+    margin-left: 160px;
+    border: 2px solid rgb(39, 56, 48);
+}
+.third {
+    text-align: center;
+    margin-top: -110px;
+    margin-left: 986px;
+    width: 284px;
+    height: 80px;
+    background-color: rgb(37, 54, 47);
+    padding-top: 10px;
 }
