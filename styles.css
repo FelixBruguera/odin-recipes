@@ -59,7 +59,9 @@
 .header-img {
     align-items: center;
     margin-top: 10px;
-    border-radius: 280px;
+    border-radius: 50%;
+    max-width: 20%;
+    margin-right: 50px;
 }
 .body-card {
     display:flex;
